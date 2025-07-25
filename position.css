@@ -1,0 +1,35 @@
+div.fixed{
+
+    position: fixed;
+    top: 200px;
+    right: 100px;
+    width: 300px;
+    border: 3px solid green;
+    padding: 10px;
+    
+}
+
+div{
+    right: 30px;
+    border: 3px solid blue
+}
+
+div.sticky{
+    position: sticky;
+    top: 1px;
+    left: 200px;
+    width: 200px;
+    border: 3px solid purple
+}
+
+div.absolute{
+    position: absolute;
+    left: 50px;
+    border: 3px solid orange
+}
+
+div.relative{
+    position: relative;
+    left: 100px;
+    border: 3px solid hotpink
+}
