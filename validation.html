@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1>Form created with js</h1>
+
+    <form id="loginform" onsubmit="validate(event)">
+
+        <fieldset>
+
+            <div>
+                <label for="email">email:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div>
+                <label for="password">password:</label>
+                <input type="password" id="password" minlength="8">
+            </div>
+
+        
+          <div>
+            <label for="age">age:</label>
+            <input type="number" id="age" min="12" max="50">
+          </div>
+
+          <button type="submit">login</button>
+
+        </fieldset>
+
+
+    </form>
+    <div id="message"></div>
+    
+</body>
+
+<script src="vallidation.js"></script>
+</html>
