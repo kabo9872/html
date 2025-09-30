@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Javascript error handling and arrow function</h2>
+    <p>This example demonstrates how to use <b>Catch</b> ot diplay an error</p>
+    <p id="result"></p>
+
+</body>
+
+<script>
+
+    product = (a, b) => a*b;
+
+    try {
+        document.getElementById("result").innerHTML = a;
+    }
+
+    catch(err) {
+        document.getElementById("result").innerHTML = err.message;
+    }
+</script>
+</html>
