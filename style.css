@@ -1,41 +1,11 @@
-body {
-    margin: 0;
-    font-family: serif;
-    background-color: white;
+#social-media {
+    background-color: black;
 }
 
-.navigation {
-    background-color: rgba(108, 4, 4, 0.94);
-    border-bottom: 2px solid orange;
-    padding: 15px 40px;
-}
-
-.navigation-link {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease, transform 0.3 ease;
-}
-
-.navigation-link:hover {
-    color: orange;
-    transform: scale(1.1);
-}
-
-h5 {
-    font-family: 'Baloo Tamma 2', cursive;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    
-    .navigation-link {
-        margin: 8px;
-    }
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid orange;
+    border-radius: 0.5rem;
 }
