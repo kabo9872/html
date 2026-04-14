@@ -1,8 +1,18 @@
-number = int(input("enter number to check"))
-print("number to be checked : ", number)
+#program to check if the entered number is odd or even using bitwise operator
+#return true if the number is even, else odd
+def isEvenOdd(n):
+#XOR with 1 = n+1
+    if (n ^ 1 == n + 1):
+        return True;
+    else:
+        return False;
 
+number = int(input("Enter a number: "))
 
-if number%2 == 0:
-    print("the number is even")
+if (isEvenOdd(number)):
+    print(number, "is an even number")
+
 else:
-    print("the number is odd")
+    print(number, "is an odd number")
+
+    
